@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac toe Game</title>
+    <link rel="stylesheet" type="text/css" href="tictactoe.css">
+
+    <script src="tictactoe.js"></script>
+</head>
+<body>
+    <div id="main">
+        <h1>TIC TAC TOE</h1>
+  
+        <!-- How to start -->
+        <p id="rules">
+            <b>Player X</b>&nbsp VS
+            <b>Player 0</b>
+        </p>
+  
+        <br><br>
+        <!-- 3*3 grid of Boxes -->
+        
+        <input type="text" id="box1" onclick=
+            "value_1(); game();" >
+        
+  
+        <input type="text" id="box2" onclick=
+            "value_2(); game();" >
+  
+        <input type="text" id="box3" onclick=
+            "value_3(); game();" >
+        <br><br>
+  
+        <input type="text" id="box4" onclick=
+            "value_4(); game();">
+              
+        <input type="text" id="box5" onclick=
+            "value_5(); game();" >
+  
+        <input type="text" id="box6" onclick=
+            "value_6(); game();" >
+        <br><br>
+  
+        <input type="text" id="box7" onclick=
+            "value_7(); game();">
+  
+        <input type="text" id="box8" onclick=
+            "value_8();game();" >
+  
+        <input type="text" id="box9" onclick=
+            "value_9();game();">
+        
+  
+        <!-- Grid end here  -->
+        <br><br><br>
+        <!-- Button to reset game -->
+        <button id="button" onclick="reset()">
+            Play Again
+        </button>
+  
+        <br><br>
+        <!-- Space to show player turn -->
+        <p id="print"></p>
+  
+    </div>
+</body>
+</html>
